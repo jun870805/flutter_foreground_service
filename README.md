@@ -1,6 +1,6 @@
-# flutter foreground service
+# Flutter 背景服務 & 開機自啟
 
-Flutter背景服務(for Android) --關掉app依然會繼續跑在背景，重新開機會自己啟動app--
+Flutter service (for Android) --關掉app依然會繼續跑在背景，重新開機會自己啟動app--
 
 使用套件：[foreground_service ^2.0.1+1](https://pub.dev/packages/foreground_service/versions/2.0.1)
 
