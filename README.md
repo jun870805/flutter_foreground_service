@@ -1,8 +1,10 @@
 # Flutter 背景服務 & 開機自啟
 
-Flutter service (for Android) --關掉app依然會繼續跑在背景，重新開機會自己啟動app--
+Flutter service (for Android) 
 
-使用套件：[foreground_service ^2.0.1+1](https://pub.dev/packages/foreground_service/versions/2.0.1)
+關掉app依然會繼續跑在背景，重新開機會自己啟動app
+
+***使用套件：[foreground_service ^2.0.1+1](https://pub.dev/packages/foreground_service/versions/2.0.1)***
 
 ## Step1 背景服務 - 添加庫至 pubspec.yaml ：
 
@@ -58,7 +60,7 @@ foreground service 要執行的function
 
 ## Step3 背景服務 - 加入 service notify 圖片：
 
-**重要:添加 android/app/src/main/res/drawable-mdpi/org_thebus_foregroundserviceplugin_notificationicon.png 圖片，否則會報錯
+**重要:添加 android/app/src/main/res/drawable-mdpi/org_thebus_foregroundserviceplugin_notificationicon.png 圖片，否則會報錯**
 
 ## Step4 開機自啟 - 設定 Android權限：
 
